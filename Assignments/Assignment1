@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Project</title>
+  </head>
+  <body>
+    <div class="container">
+        <form>
+            <div class="mb-3">
+              <div for="firstName" class="form-label">First Name</div>
+              <input type="First Name" class="form-control" id="firstName" aria-describedby="firstName">
+              <div for="lastName" class="form-label">Last Name</div>
+              <input type="Last Name" class="form-control" id="lastName">
+             
+              <div class="mb-3">
+                <div for="address" class="form-label">Address</div>
+                <input type="address" class="form-control" id="address">
+              </div>
+              
+            <div class="mb-3">
+              <div for="city" class="form-label">City</label></div>
+              <input type="City" class="form-control" id="city" aria-describedby="city">
+              <div for="State" class="form-label">State</label></div>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Michigan</option>
+                <option value="1">Ohio</option>
+                <option value="2">California</option>
+                <option value="3">Michigan</option>
+                <option value="4">Texas</option>
+                <option value="5">New York</option>
+              </select>
+              </div>
+            </div>
+          </form>
+      </div>
+</body>
+</html>
