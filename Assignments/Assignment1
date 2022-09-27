@@ -13,13 +13,10 @@
               <input type="First Name" class="form-control" id="firstName" aria-describedby="firstName">
               <div for="lastName" class="form-label">Last Name</div>
               <input type="Last Name" class="form-control" id="lastName">
-             
+            
               <div class="mb-3">
                 <div for="address" class="form-label">Address</div>
                 <input type="address" class="form-control" id="address">
-              </div>
-              
-            <div class="mb-3">
               <div for="city" class="form-label">City</label></div>
               <input type="City" class="form-control" id="city" aria-describedby="city">
               <div for="State" class="form-label">State</label></div>
@@ -33,6 +30,23 @@
               </select>
               </div>
             </div>
+            <!-- I forgot to add the radio buttons and the submit button before the due date -->
+            <!-- I wanted to add them so I coud still see how they worked, but I wanted you to know -->
+            <!-- Just in case you thought I was trying to slip them in without you knowing -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Male
+              </label>
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Femail
+              </label>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+          
           </form>
       </div>
 </body>
